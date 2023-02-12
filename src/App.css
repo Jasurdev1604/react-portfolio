@@ -189,7 +189,7 @@ span.navbar-text {
 }
 
 .navbar-text button span {
-  z-index: 1;
+  z-index: 99;
 }
 
 .navbar-text button::before {
@@ -260,7 +260,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   transform: translateY(8px) rotate(-45deg);
-  background-color: #fff;
+  background-color: rgb(255, 0, 0);
   height: 2px;
 }
 
@@ -322,7 +322,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
- 
+
 .banner button:hover svg {
   margin-left: 25px;
 }
